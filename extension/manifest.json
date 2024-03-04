@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Job Pilot",
+  "version": "1.0",
+  "description": "Job Pilot - A tool to make your Job Hunt easier!",
+  "action": {
+    "default_icon": {
+      "34": "icons/icon-34.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "34": "icons/icon-34.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
