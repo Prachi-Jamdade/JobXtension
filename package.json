@@ -7,8 +7,7 @@
     "dev:extension": "npm-watch",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "mv out/_next out/assets && sed -i 's/\\/_next/\\/assets/g' out/**.html"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.1.1",
