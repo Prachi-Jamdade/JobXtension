@@ -1,8 +1,10 @@
 {
-  "/not-found": "app/not-found.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/page": "app/page.js",
+  "/_not-found": "app/_not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/(dashboard)/dashboard/profiles/page": "app/(dashboard)/dashboard/profiles/page.js",
   "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/dashboard/appliedjobs/page": "app/(dashboard)/dashboard/appliedjobs/page.js",
   "/(auth)/login/page": "app/(auth)/login/page.js"
 }

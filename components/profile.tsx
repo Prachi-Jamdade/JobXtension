@@ -27,10 +27,10 @@ export default async function Profile() {
           className="h-10 w-10 rounded-full" // Adjust size for visibility
         />
         <span className="truncate text-sm font-medium">
-          {session.user.name} // Display user's name
+          {session.user.name} 
         </span>
       </Link>
-      <LogoutButton /> // Button to log out the user
+      <LogoutButton />
     </div>
   );
 }

@@ -51,6 +51,7 @@ const authOptions = {
   },
 };
 
+export default authOptions
 const handler = NextAuth(authOptions);
 
 

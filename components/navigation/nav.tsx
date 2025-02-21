@@ -130,7 +130,7 @@ export default function Nav({ children }: { children: ReactNode }) {
         } fixed z-10 flex h-full flex-col justify-between border-r border-stone-200 bg-stone-100 p-4 transition-all dark:border-stone-700 dark:bg-stone-900 sm:w-60 sm:translate-x-0`}
       >
         <div className="grid gap-2">
-          <div className="flex items-center justify-between space-x-2 rounded-lg px-2 py-1.5">
+          <div className="flex items-center justify-left space-x-2 rounded-lg px-2 py-1.5">
             <a
               href="/"
               target="_blank"
@@ -152,11 +152,11 @@ export default function Nav({ children }: { children: ReactNode }) {
             </a>
             <p>Xtension</p>
 
-            <div className="h-6  rotate-[30deg] border-l border-stone-400 dark:border-stone-500" />
-           <LogoutButton/>
+            {/* <div className="h-6  rotate-[30deg] border-l border-stone-400 dark:border-stone-500" />
+           <LogoutButton/> */}
           </div>
           <div className="grid gap-1">
-            <ScrollArea className="h-[calc(80vh-100px)]">
+            <ScrollArea className="">
               {(tabs ?? []).map(({ name, href, isActive, icon }) => (
                 <Link
                   key={name}
